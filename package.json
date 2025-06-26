@@ -1,0 +1,32 @@
+{
+  "name": "@wavemaker/react-native-app-data-sharing-expo-plugin",
+  "version": "1.0.0",
+  "description": "Expo plugin for react-native-app-data-sharing that enables seamless and secure data sharing between React Native applications on the same device",
+  "main": "app.plugin.js",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module"
+  },
+  "keywords": [
+    "expo",
+    "expo-plugin",
+    "react-native",
+    "react-native-app-data-sharing",
+    "app-data-sharing",
+    "cross-app-communication",
+    "shared-preferences",
+    "keychain"
+  ],
+  "author": "Vijay Tiwari",
+  "license": "MIT",
+  "dependencies": {
+    "react-native-app-data-sharing": "^1.1.0"
+  },
+  "devDependencies": {
+    "expo-module-scripts": "^4.1.7"
+  }
+}
